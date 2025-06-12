@@ -40,3 +40,40 @@ cálculo da média de gênero.
 
   # **Análise Descritiva**
 Após a análise dos dados foi possivel obter alguns insights. Inicialmente o objetivo foi identificar a porcentagem de Evasões.
+
+![Porcentagem de Evasões](img/porcEvasoes.png)
+
+Como a taxa indicada era alta, foi preciso buscar em outras variáveis motivos para tamanha alta em evasões, e como evitá-las. O primeiro passo foi calcular a parte financeira, obtendo os seguintes dados:
+
+# **Média de Gastos**
+
+Média diária em R$: 2.16
+
+Média mensal em R$: 64.72
+
+Média total em R$: 2280.63
+
+# **Perfil dos Clientes**
+Neste insight também foi possivel ter um aprofudamento maior no perfil do cliente, sendo que;
+
+51% dos clientes são Homens
+
+49% dos clientes são mulheres
+
+Sendo que 16% do clientes são idosos
+
+48% possuem parceiro(a)
+
+30% possuem dependentes
+
+90% Possuem serviço telefônico
+
+59% utilizam fatura digital
+
+# **Tempo de fidelidade do Cliente**
+Neste insight foi possivel calcular qual era o tempo médio de contrato dos clientes. Com esse dado foi possivel observar qual o tempo médio em que o cliente era mais propenso a cancelar o serviço. 
+![Tempo de Fidelidade](img/tempoFidelidade.png)
+
+# Relação do tempo de contrato e Evasões:
+![Evasoes](img/graficoCT.png)
+
