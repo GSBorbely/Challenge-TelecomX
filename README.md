@@ -4,6 +4,14 @@ A Telecom está passando por problemas no grande aumento de evasões de clientes
 
 Neste projeto foi utilizada a linguagem de programação Python e suas bibliotecas para analisar os dados, extrair as informações e aplicá-las nas tomadas de decisões. 
 
+## ✔ Tecnologias utilizadas
+- ``Python``
+- ``Pandas``
+- ``Numpy``
+- ``Seaborn``
+- ``Matplotlib ``
+- ``Jupyter Notebook pelo Google Colab ``
+  
 # **Extração dos Dados**
 Os dados foram extraidos através de uma API em formato JSON
 
@@ -40,9 +48,8 @@ cálculo da média de gênero.
 
   # **Análise Descritiva**
 Após a análise dos dados foi possivel obter alguns insights. Inicialmente o objetivo foi identificar a porcentagem de Evasões.
-
-![Porcentagem de Evasões](img/porcEvasoes.png)
-
+ <img src= "/img/porcEvasoes.png" style = "heigt: 40px;" img >
+ 
 Como a taxa indicada era alta, foi preciso buscar em outras variáveis motivos para tamanha alta em evasões, e como evitá-las. O primeiro passo foi calcular a parte financeira, obtendo os seguintes dados:
 
 # **Média de Gastos**
@@ -72,8 +79,14 @@ Sendo que 16% do clientes são idosos
 
 # **Tempo de fidelidade do Cliente**
 Neste insight foi possivel calcular qual era o tempo médio de contrato dos clientes. Com esse dado foi possivel observar qual o tempo médio em que o cliente era mais propenso a cancelar o serviço. 
-![Tempo de Fidelidade](img/tempoFidelidade.png)
+
+<img src= "img/tempoFidelidade.png" style = "heigt: 40px;" img >
 
 # Relação do tempo de contrato e Evasões:
-![Evasoes](img/graficoCT.png)
+
+<img src= "/img/graficoCT.png" style = "heigt: 40px;" img >
+
+ - Os dados também possibilitaram uma análise aprofudanda em outras variáveis categóricas como o Gênero, Tipo de contrato, Método de pagamento e Serviço de Internet.
+ - 
+   <img src= "/img/evasoesGenero.png" style = "heigt: 10px;" img >
 
